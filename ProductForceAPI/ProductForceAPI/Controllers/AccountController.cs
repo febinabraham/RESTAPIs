@@ -23,7 +23,7 @@ namespace ProductForceAPI.Controllers
     [RoutePrefix("api/Account")]
     public class AccountController : ApiController
     {
-        private const string LocalLoginProvider = "Local";
+        private   string LocalLoginProvider = "Local";
         private ApplicationUserManager _userManager;
 
         public AccountController()
