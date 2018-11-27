@@ -9,6 +9,7 @@ namespace ProductForceAPI.Common
     {
         Perishable,
         NonPerishable,
+        Furnishing,
         Construction,
         Auto
     }
